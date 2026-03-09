@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Produtividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h3>Produtividade</h3>
+        
+        <label>Quantidade de Pontos:</label>
+        <input type="number" id="pontos" placeholder="Ex: 100">
+
+        <label>Quantidade de Técnicos:</label>
+        <input type="number" id="tecnico" placeholder="Ex: 5">
+
+        <label>Quantidade de Dias Úteis:</label>
+        <input type="number" id="dias" placeholder="Ex: 20">
+
+        <button onclick="calcular()">Calcular</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
